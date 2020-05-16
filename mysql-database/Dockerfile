@@ -1,0 +1,4 @@
+FROM mysql
+MAINTAINER Maksym.Kuzmovych.KNM.2018@lpnu.ua
+ENV MYSQL_ROOT_PASSWORD=root
+EXPOSE 3306

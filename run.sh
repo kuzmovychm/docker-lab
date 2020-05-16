@@ -1,7 +1,5 @@
-rm -r ./rest-service
 git clone https://github.com/kuzmovychm/databases-lab6.git
 mv databases-lab6 rest-service
-docker build mysql-database
-docker build rest-service
-docker-compose up -d
+docker-compose up --build
 docker logs rest-service
+rm -r ./rest-service
